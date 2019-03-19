@@ -1,0 +1,32 @@
+{
+  "name": "build_commandline_tool",
+  "version": "1.0.0",
+  "description": "Building command line tools with Node.js. Shell command named snippet that creates a Bitbucket Snippet from a file on our local disk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankajbarhate13/build_commandline_tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "snippet": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/pankajbarhate13/build_commandline_tool/issues"
+  },
+  "homepage": "https://github.com/pankajbarhate13/build_commandline_tool#readme",
+  "dependencies": {
+    "bitbucket-snippet": "0.0.6",
+    "chalk": "^2.4.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.19.0",
+    "progress": "^2.0.3",
+    "superagent": "^4.1.0"
+  }
+}
